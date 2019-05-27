@@ -19,9 +19,9 @@ Script para realizar Backup do WebServer Apache no Ubuntu
 2: O script executará a função que foi solicitada. Dessa forma, segue abaixo o funcionamento de cada uma delas: 
 
     2.1: Função "inicio()" - Executa a verificação inicial do usuário, qual será a ação que o mesmo irá tomar;
-    2.2: Função "verSistema() OSMAR: seeSystem" - Verifica se o sistema operacional é compatível com o script;
+    2.2: Função "verSistema()" - Verifica se o sistema operacional é compatível com o script;
     2.3: Função "apache()" - Verifica se o Apache está instalado.
-    2.4: Função "verDiretorio() OSMAR: seeDir" - Verifica se o diretório "/Backup_webServer" existe para fazer os backups necessários. Caso o diretório não exista, é criado e feito o backup inicial.
-    2.5: Função "realizeBackup()   OSMAR: doBackup" - Faz o backup necessário para a restauração do Apache em caso de falhas futuras, e dos arquivos de configuração do mesmo.
+    2.4: Função "verDiretorio()" - Verifica se o diretório "/Backup_webServer" existe para fazer os backups necessários. Caso o diretório não exista, é criado e feito o backup inicial.
+    2.5: Função "realizeBackup()" - Faz o backup necessário para a restauração do Apache em caso de falhas futuras, e dos arquivos de configuração do mesmo.
     2.6: Função "verPath()" - Mostra o caminho em que está localizado o diretório do backup.
-    2.7: Função "autoPes()   OSMAR: autoScr()" - Cria a automação do script para executar automanticamente, dependendo do qual o usuário escolheu. É necessário indicar todo o caminho até o arquivo, e o script para simplesmente executar a automação é o "/backupAutomatico.sh" ao colocar o nome dele na indicação do local, o script será executado automaticamente de acordo com o agendamento.
+    2.7: Função "autoPes()" - Cria a automação do script para executar automanticamente. É necessário indicar todo o caminho até o arquivo, e o script para executar a automação é o "/backupAutomatico.sh".
