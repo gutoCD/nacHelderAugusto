@@ -11,9 +11,9 @@ Script para realizar Backup do WebServer Apache no Ubuntu
     Ações a serem tomadas:
         - Verificar se o sistema é compativel com o script;
         - Instalar o WebServer Apache;
-        - Verificar se o diretório "/Backup_webServer" já existe, e se não, criar o mesmo, e é feito o Backup inicial;
+        - Verificar se o diretório "/Backup_Apache" já existe, e se não, criar o mesmo, e é feito o Backup inicial;
         - Fazer o Backup para o diretório que foi criado;
-        - Mostrar o caminho de onde foi craido o Backup;
+        - Mostrar o caminho de onde foi criado o Backup;
         - Automatizar o script para executar de hora/hora, dia/dia ou mensalmente. 
 
 2: O script executará a função que foi solicitada. Dessa forma, segue abaixo o funcionamento de cada uma delas: 
